@@ -1,11 +1,9 @@
-function countCats (array2D) {
-
-    array2D =[];
+function countCats (backyard) {
 
     let count = 0;
 
-    for (i=0; i < array2D.length; i++) {
-        if ( array2D[i] === '^^' ) {
+    for (i=0; i < backyard.length; i++) {
+        if ( backyard[i] === '^^' ) {
             count += 1;
         }
     }
